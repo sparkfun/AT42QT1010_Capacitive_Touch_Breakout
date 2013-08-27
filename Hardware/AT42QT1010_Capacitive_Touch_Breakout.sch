@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7802,7 +7802,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="NPN"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="JP7" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NC" value="NC"/>
-<part name="JP8" library="SparkFun-Passives" deviceset="JUMPER-3" device="1-2"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7828,6 +7827,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
+<part name="JP8" library="SparkFun-Passives" deviceset="JUMPER-3" device="1-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -7852,7 +7852,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="Q1" gate="G$1" x="81.28" y="35.56"/>
 <instance part="SUPPLY4" gate="1" x="83.82" y="73.66"/>
 <instance part="JP7" gate="A" x="50.8" y="40.64"/>
-<instance part="JP8" gate="G$1" x="170.18" y="111.76" rot="R270"/>
 <instance part="GND1" gate="1" x="63.5" y="88.9"/>
 <instance part="GND2" gate="1" x="91.44" y="111.76"/>
 <instance part="GND3" gate="1" x="165.1" y="101.6"/>
@@ -7881,6 +7880,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="VALUE" x="213.36" y="116.84" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="200.66" y="108.458" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="JP8" gate="G$1" x="170.18" y="111.76" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -7894,8 +7894,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <segment>
 <pinref part="SUPPLY5" gate="1" pin="VCC"/>
 <wire x1="165.1" y1="114.3" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -7935,10 +7935,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="116.84" y1="116.84" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="3"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="167.64" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="106.68" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP8" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -8047,11 +8047,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="JP8" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="109.22" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SYNC/MODE"/>
 <wire x1="157.48" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
