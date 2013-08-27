@@ -1381,13 +1381,11 @@ design rules under a new name.</description>
 <contactref element="JP8" pad="3"/>
 </signal>
 <signal name="OUT">
-<contactref element="U1" pad="1"/>
 <contactref element="JP7" pad="1"/>
 <contactref element="JP6" pad="3"/>
 <contactref element="JP3" pad="1"/>
 <via x="24.384" y="9.906" extent="1-16" drill="0.508"/>
 <wire x1="24.384" y1="9.906" x2="23.81" y2="10.48" width="0.254" layer="1"/>
-<wire x1="22.9651" y1="10.48" x2="23.81" y2="10.48" width="0.254" layer="1"/>
 <wire x1="13.97" y1="6.27" x2="13.97" y2="10.16" width="0.254" layer="1"/>
 <wire x1="13.97" y1="10.16" x2="13.97" y2="7.112" width="0.254" layer="16"/>
 <wire x1="13.97" y1="7.112" x2="12.7" y2="5.842" width="0.254" layer="16"/>
@@ -1398,6 +1396,8 @@ design rules under a new name.</description>
 <wire x1="3.048" y1="5.842" x2="3.81" y2="5.842" width="0.254" layer="1"/>
 <wire x1="24.384" y1="9.906" x2="21.59" y2="7.112" width="0.254" layer="16"/>
 <wire x1="21.59" y1="7.112" x2="13.97" y2="7.112" width="0.254" layer="16"/>
+<contactref element="U1" pad="1"/>
+<wire x1="23.81" y1="10.48" x2="22.9651" y2="10.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LED">
 <contactref element="JP7" pad="2"/>
