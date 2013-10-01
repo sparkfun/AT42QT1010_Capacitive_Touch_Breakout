@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7833,7 +7833,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <sheet>
 <plain>
 <text x="172.212" y="7.62" size="5.08" layer="94">Shawn Hymel</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">01</text>
+<text x="239.014" y="6.604" size="3.81" layer="94">02</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="137.16" y="121.92"/>
