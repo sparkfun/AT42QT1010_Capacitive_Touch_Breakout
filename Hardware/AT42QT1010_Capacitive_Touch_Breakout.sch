@@ -7870,10 +7870,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="101.6" y1="76.2" x2="101.6" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="97" style="longdash"/>
-<text x="220.98" y="38.1" size="1.778" layer="97">Capacitive Touch</text>
-<text x="83.82" y="142.24" size="1.778" layer="97">SMD Header</text>
-<text x="83.82" y="78.74" size="1.778" layer="97">PTH Header</text>
-<text x="93.98" y="2.54" size="1.778" layer="97">LED</text>
+<text x="210.82" y="38.1" size="2.54" layer="97">Capacitive Touch</text>
+<text x="2.54" y="142.24" size="2.54" layer="97">SMD Header</text>
+<text x="2.54" y="78.74" size="2.54" layer="97">PTH Header</text>
+<text x="2.54" y="2.54" size="2.54" layer="97">LED</text>
 <text x="177.8" y="83.82" size="2.54" layer="97" align="bottom-center">Mode Select</text>
 <text x="149.86" y="73.66" size="2.54" layer="97">F</text>
 <text x="149.86" y="60.96" size="2.54" layer="97">L</text>
