@@ -1,0 +1,1 @@
+* AT42QT1010_Arduino_Example - Simple sketch showing how to use the AT42QT1010 to detect a capacitive touch event
