@@ -9430,22 +9430,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-0.889" y="2.032" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
 <package name="SOT23-3">
+<description>SOT23-3</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
@@ -9457,8 +9443,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
 <package name="TO-92">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
@@ -9471,62 +9457,33 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
 <pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
 <pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="SOT223">
-<description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-</package>
-<package name="SOT89">
-<wire x1="2.3" y1="1.3" x2="2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.3" x2="-2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.3" x2="-2.3" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.3" x2="2.3" y2="1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="3" x="1.5" y="-1.8" dx="0.58" dy="1.2" layer="1"/>
-<smd name="4" x="0" y="1.3" dx="2" dy="2" layer="1"/>
-<text x="-2.5185" y="-0.9555" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.9905" y="-1.1295" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.915" y1="0.3034" x2="0.915" y2="2.1576" layer="51"/>
-<rectangle x1="-1.74" y1="-2.23" x2="-1.26" y2="-1.27" layer="51"/>
-<rectangle x1="-0.24" y1="-2.23" x2="0.24" y2="-1.27" layer="51"/>
-<rectangle x1="1.26" y1="-2.23" x2="1.74" y2="-1.27" layer="51"/>
-</package>
-<package name="TO-92-AMMO">
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
+<package name="TO-92-EZ">
+<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
+<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
 <wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-25.057615"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="1.905" width="0.2032" layer="21" curve="-28.072487"/>
-<wire x1="-1.905" y1="1.905" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-53.130102"/>
-<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.175" y="1.905" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.905" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796" stop="no"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<circle x="0" y="1.905" radius="1.02390625" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="1.02390625" width="0" layer="30"/>
+<circle x="0" y="1.905" radius="0.508" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
 </package>
 </packages>
 <symbols>
 <symbol name="NPN">
+<description>&lt;h3&gt; NPN Transistor&lt;/h3&gt;
+Allows current flow when high potential at base.</description>
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
@@ -9537,8 +9494,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
 <wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
 <wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
-<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-2.286" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
 <pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
@@ -9546,76 +9503,32 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TRANSISTOR_NPN" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;Generic NPN BJT&lt;/b&gt; &lt;P&gt;
-MMBT2222A - TRANS-08049 (SOT-23, 1A 40V)&lt;br&gt;
-MPSA42 - TRANS-09116 (SOT-23, 500mA 300V)&lt;br&gt;
-MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
+<deviceset name="TRANS_NPN" prefix="Q">
+<description>&lt;h3&gt;NPN transistor&lt;/h3&gt;
+&lt;p&gt;Current controlled devices typically used to amplify current or used as a switch.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    BC547 - 
+    &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;
+    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)
+  &lt;/li&gt;
+  &lt;li&gt;
+    2N3904 - 
+    &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;
+    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)
+  &lt;/li&gt;
+  &lt;li&gt;
+    P2N2222A - 
+    &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;
+    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)
+  &lt;/li&gt;
+
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT23" package="SOT23">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT23-3" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO92" package="TO-92">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="&quot;" package="SOT223">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT89" package="SOT89">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO-92-AMMO" package="TO-92-AMMO">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MMBT2222A" package="SOT23">
+<device name="-MMBT2222AL" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -9624,11 +9537,37 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-08049"/>
-<attribute name="VALUE" value="MMBT2222A" constant="no"/>
+<attribute name="VALUE" value="600mA/40V"/>
 </technology>
 </technologies>
 </device>
-<device name="MPSA42" package="SOT23">
+<device name="-2N3904" package="TO-92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08447"/>
+<attribute name="VALUE" value="200mA/40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-P2N2222A" package="TO-92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-09536"/>
+<attribute name="VALUE" value="600mA/40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMBTA42" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -9637,20 +9576,20 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;</description>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="TRANS-09116"/>
-<attribute name="VALUE" value="MPSA42" constant="no"/>
+<attribute name="VALUE" value="500mA/300V"/>
 </technology>
 </technologies>
 </device>
-<device name="MMBT5088" package="SOT23">
+<device name="-2N3904-EZ" package="TO-92-EZ">
 <connects>
-<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
 <connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="TRANS-11160"/>
-<attribute name="VALUE" value="MMBT5088" constant="no"/>
+<attribute name="PROD_ID" value="TRANS-08447"/>
+<attribute name="VALUE" value="200mA/40V"/>
 </technology>
 </technologies>
 </device>
@@ -10719,124 +10658,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="Testing">
-<packages>
-<package name="UDFN/USON_8_PAD">
-<smd name="1" x="-0.75" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="2" x="-0.25" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="3" x="0.25" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="4" x="0.75" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="5" x="0.75" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="6" x="0.25" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="7" x="-0.25" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<smd name="8" x="-0.75" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
-<wire x1="1.114" y1="0.8218" x2="1.114" y2="-0.7282" width="0.127" layer="21"/>
-<wire x1="-1.1032" y1="0.8004" x2="-1.1032" y2="-0.7496" width="0.127" layer="21"/>
-<text x="-1.7166" y="1.3968" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.1484" y="-2.2984" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<wire x1="-1" y1="-1" x2="1" y2="-1" width="0" layer="51"/>
-<wire x1="1" y1="-1" x2="1" y2="1" width="0" layer="51"/>
-<wire x1="1" y1="1" x2="-1" y2="1" width="0" layer="51"/>
-<wire x1="-1" y1="1" x2="-1" y2="-1" width="0" layer="51"/>
-<circle x="-1.1938" y="-1.1684" radius="0.0762" width="0.127" layer="21"/>
-<smd name="P$1" x="0" y="0" dx="1.3" dy="0.8" layer="1" cream="no"/>
-<rectangle x1="-0.5588" y1="0.0508" x2="-0.254" y2="0.3302" layer="31"/>
-<rectangle x1="0.246" y1="0.0548" x2="0.5508" y2="0.3342" layer="31"/>
-<rectangle x1="0.246" y1="-0.3262" x2="0.5508" y2="-0.0468" layer="31"/>
-<rectangle x1="-0.5668" y1="-0.3262" x2="-0.262" y2="-0.0468" layer="31"/>
-<rectangle x1="-0.1604" y1="-0.1484" x2="0.1444" y2="0.131" layer="31"/>
-</package>
-<package name="SOT23-6">
-<circle x="-0.95" y="-0.3" radius="0.1436" width="0.2032" layer="21"/>
-<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
-<smd name="1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0525" y="0.0095" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AT42QT1010">
-<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<pin name="OUT" x="-17.78" y="5.08" length="middle"/>
-<pin name="SNS" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="SNSK" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="SYNC/MODE" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="VDD" x="0" y="15.24" length="middle" rot="R270"/>
-<pin name="VSS" x="-17.78" y="-5.08" length="middle"/>
-<text x="-12.7" y="11.176" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AT42QT1010">
-<description>&lt;h3&gt;Atmel AT42QT1010&lt;/h3&gt;
-&lt;p&gt; The AT42QT1010 (QT1010) is a digital burst mode charge-transfer (QT™) sensor that is capable of detecting nearproximityor touch, making it ideal for implementing touch controls.The QT1010 is designed specifically for human interfaces, like control panels, appliances, toys, lighting controls, or
-anywhere a mechanical switch or button may be found. It includes all hardware and signal processing functions
-necessary to provide stable sensing under a wide variety of changing conditions. Only a single low-cost capacitor is
-required for operation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://www.atmel.com/images/Atmel-9541-AT42-QTouch-BSW-AT42QT1010_Datasheet.pdf'&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4&gt;Sparkfun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12041"&gt;Sparkfun Capacitive Touch Breakout&lt;/a&gt; (SEN-12041)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="AT42QT1010" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT23" package="SOT23-6">
-<connects>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="SNS" pad="4"/>
-<connect gate="G$1" pin="SNSK" pad="3"/>
-<connect gate="G$1" pin="SYNC/MODE" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="UDFN" package="UDFN/USON_8_PAD">
-<connects>
-<connect gate="G$1" pin="OUT" pad="5"/>
-<connect gate="G$1" pin="SNS" pad="8"/>
-<connect gate="G$1" pin="SNSK" pad="1"/>
-<connect gate="G$1" pin="SYNC/MODE" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-13773" constant="no"/>
-<attribute name="VALUE" value="AT42QT1010 - UDFN" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Jumpers">
 <description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
 In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
@@ -11050,6 +10871,124 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="local_parts">
+<packages>
+<package name="UDFN/USON_8_PAD">
+<smd name="1" x="-0.75" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="-0.25" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="0.25" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="-0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="0.75" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="0.25" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.25" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="-0.75" y="0.8516" dx="0.3" dy="0.25" layer="1" rot="R90"/>
+<wire x1="1.114" y1="0.8218" x2="1.114" y2="-0.7282" width="0.127" layer="21"/>
+<wire x1="-1.1032" y1="0.8004" x2="-1.1032" y2="-0.7496" width="0.127" layer="21"/>
+<text x="-1.7166" y="1.3968" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.1484" y="-2.2984" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0" layer="51"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0" layer="51"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0" layer="51"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0" layer="51"/>
+<circle x="-1.1938" y="-1.1684" radius="0.0762" width="0.127" layer="21"/>
+<smd name="P$1" x="0" y="0" dx="1.3" dy="0.8" layer="1" cream="no"/>
+<rectangle x1="-0.5588" y1="0.0508" x2="-0.254" y2="0.3302" layer="31"/>
+<rectangle x1="0.246" y1="0.0548" x2="0.5508" y2="0.3342" layer="31"/>
+<rectangle x1="0.246" y1="-0.3262" x2="0.5508" y2="-0.0468" layer="31"/>
+<rectangle x1="-0.5668" y1="-0.3262" x2="-0.262" y2="-0.0468" layer="31"/>
+<rectangle x1="-0.1604" y1="-0.1484" x2="0.1444" y2="0.131" layer="31"/>
+</package>
+<package name="SOT23-6">
+<circle x="-0.95" y="-0.3" radius="0.1436" width="0.2032" layer="21"/>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0525" y="0.0095" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="AT42QT1010">
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<pin name="OUT" x="-17.78" y="5.08" length="middle"/>
+<pin name="SNS" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="SNSK" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SYNC/MODE" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="VDD" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="VSS" x="-17.78" y="-5.08" length="middle"/>
+<text x="-12.7" y="11.176" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AT42QT1010">
+<description>&lt;h3&gt;Atmel AT42QT1010&lt;/h3&gt;
+&lt;p&gt; The AT42QT1010 (QT1010) is a digital burst mode charge-transfer (QT™) sensor that is capable of detecting nearproximityor touch, making it ideal for implementing touch controls.The QT1010 is designed specifically for human interfaces, like control panels, appliances, toys, lighting controls, or
+anywhere a mechanical switch or button may be found. It includes all hardware and signal processing functions
+necessary to provide stable sensing under a wide variety of changing conditions. Only a single low-cost capacitor is
+required for operation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.atmel.com/images/Atmel-9541-AT42-QTouch-BSW-AT42QT1010_Datasheet.pdf'&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Sparkfun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12041"&gt;Sparkfun Capacitive Touch Breakout&lt;/a&gt; (SEN-12041)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="AT42QT1010" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT23" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="SNS" pad="4"/>
+<connect gate="G$1" pin="SNSK" pad="3"/>
+<connect gate="G$1" pin="SYNC/MODE" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UDFN" package="UDFN/USON_8_PAD">
+<connects>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="SNS" pad="8"/>
+<connect gate="G$1" pin="SNSK" pad="1"/>
+<connect gate="G$1" pin="SYNC/MODE" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="7"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13773" constant="no"/>
+<attribute name="VALUE" value="AT42QT1010 - UDFN" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11061,7 +11000,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="Testing" deviceset="AT42QT1010" device="UDFN" value="AT42QT1010 - UDFN"/>
+<part name="U1" library="local_parts" deviceset="AT42QT1010" device="UDFN" value="AT42QT1010 - UDFN"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -11073,7 +11012,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="200OHM" device="-0603-1/10W-1%" value="200"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="NPN"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANS_NPN" device="-MMBT2222AL" value="600mA/40V"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
