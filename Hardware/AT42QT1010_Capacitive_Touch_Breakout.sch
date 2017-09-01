@@ -11100,10 +11100,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="101.6" y1="83.82" x2="101.6" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="0" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
-<text x="106.68" y="177.8" size="2.54" layer="97">Capacitive Touch</text>
-<text x="2.54" y="142.24" size="2.54" layer="97" font="vector">SMD Header</text>
-<text x="2.54" y="86.36" size="2.54" layer="97" font="vector">PTH Header</text>
-<text x="2.54" y="2.54" size="2.54" layer="97" font="vector">LED</text>
+<text x="106.68" y="177.8" size="2.54" layer="94">Capacitive Touch</text>
+<text x="2.54" y="142.24" size="2.54" layer="94" font="vector">SMD Header</text>
+<text x="2.54" y="86.36" size="2.54" layer="94" font="vector">PTH Header</text>
+<text x="2.54" y="2.54" size="2.54" layer="94" font="vector">LED</text>
 <text x="165.1" y="111.76" size="2.54" layer="97" font="vector" align="bottom-center">Mode Select (JP8)</text>
 <text x="139.7" y="96.52" size="2.54" layer="97" font="vector">F</text>
 <text x="139.7" y="71.12" size="2.54" layer="97" font="vector">L</text>
