@@ -1412,9 +1412,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="Testing" package="UDFN/USON_8_PAD" value="AT42QT1010UDFN" x="20.701" y="11.43" smashed="yes" rot="R180">
+<element name="U1" library="Testing" package="UDFN/USON_8_PAD" value="AT42QT1010 - UDFN" x="20.701" y="11.43" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.796" y="13.335" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" x="21.7535" y="11.4205" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VALUE" value="AT42QT1010 - UDFN" x="21.7535" y="11.4205" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PROD_ID" value="IC-13773" x="20.701" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.24" y="-17.78"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="22.86" y="19.05" rot="MR0"/>

@@ -10788,6 +10788,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbols>
 <devicesets>
 <deviceset name="AT42QT1010">
+<description>&lt;h3&gt;Atmel AT42QT1010&lt;/h3&gt;
+&lt;p&gt; The AT42QT1010 (QT1010) is a digital burst mode charge-transfer (QT™) sensor that is capable of detecting nearproximityor touch, making it ideal for implementing touch controls.The QT1010 is designed specifically for human interfaces, like control panels, appliances, toys, lighting controls, or
+anywhere a mechanical switch or button may be found. It includes all hardware and signal processing functions
+necessary to provide stable sensing under a wide variety of changing conditions. Only a single low-cost capacitor is
+required for operation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.atmel.com/images/Atmel-9541-AT42-QTouch-BSW-AT42QT1010_Datasheet.pdf'&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Sparkfun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12041"&gt;Sparkfun Capacitive Touch Breakout&lt;/a&gt; (SEN-12041)&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="AT42QT1010" x="0" y="0"/>
 </gates>
@@ -10815,7 +10827,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-13773" constant="no"/>
+<attribute name="VALUE" value="AT42QT1010 - UDFN" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11046,7 +11061,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U1" library="Testing" deviceset="AT42QT1010" device="UDFN"/>
+<part name="U1" library="Testing" deviceset="AT42QT1010" device="UDFN" value="AT42QT1010 - UDFN"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
