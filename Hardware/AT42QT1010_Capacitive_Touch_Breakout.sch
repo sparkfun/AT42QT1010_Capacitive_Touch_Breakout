@@ -22537,7 +22537,7 @@ disconnect LED.</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="147.32" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
-<label x="142.24" y="144.78" size="1.27" layer="95" font="vector" ratio="15" rot="R180" xref="yes"/>
+<label x="142.24" y="144.78" size="1.778" layer="95" font="vector" ratio="15" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED" class="0">
