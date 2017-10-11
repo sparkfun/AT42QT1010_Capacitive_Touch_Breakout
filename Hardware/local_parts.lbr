@@ -229,8 +229,6 @@ anywhere a mechanical switch or button may be found. It includes all hardware an
 necessary to provide stable sensing under a wide variety of changing conditions. Only a single low-cost capacitor is
 required for operation.&lt;/p&gt;
 
-&lt;p&gt;This chip is identical to the AT42QT1011, however the capsense times out after 60 seconds. Reciprocally, the capsense on the 1011 never times out. Reference "Signal Processing" in the datasheet.&lt;/p&gt; 
-
 &lt;p&gt;&lt;a href='http://www.atmel.com/images/Atmel-9541-AT42-QTouch-BSW-AT42QT1010_Datasheet.pdf'&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;Sparkfun Products&lt;/h4&gt;
