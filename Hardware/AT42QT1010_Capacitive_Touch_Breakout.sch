@@ -10250,8 +10250,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="171.958" y="11.43" size="2.794" layer="94">Shawn Hymel</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">v11</text>
+<text x="171.958" y="11.43" size="2.794" layer="94" font="vector">Shawn Hymel</text>
+<text x="236.474" y="6.604" size="3.81" layer="94" font="vector">v12</text>
 <wire x1="86.36" y1="185.42" x2="86.36" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="139.7" x2="86.36" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="83.82" x2="86.36" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
@@ -10285,19 +10285,19 @@ mode upon detection.</text>
 <wire x1="170.18" y1="83.82" x2="170.18" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="170.18" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="177.8" y1="106.68" x2="177.8" y2="55.88" width="0.1524" layer="97"/>
-<text x="148.59" y="6.604" size="2.54" layer="94">Revised by:</text>
+<text x="148.59" y="6.604" size="2.54" layer="94" font="vector">Revised by:</text>
 <text x="174.752" y="6.35" size="2.54" layer="94" font="vector" ratio="10">Elias Santistevan</text>
 <text x="119.38" y="160.02" size="2.54" layer="97" font="vector">VCC Range: 1.8-5.5V</text>
-<text x="15.24" y="27.94" size="1.27" layer="97">Remove solder to 
+<text x="15.24" y="27.94" size="1.27" layer="97" font="vector">Remove solder to 
 disconnect LED.</text>
 <wire x1="208.28" y1="115.316" x2="208.28" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="208.28" y1="127" x2="205.74" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="38.1" x2="147.32" y2="38.1" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="38.1" x2="147.32" y2="25.4" width="0.2032" layer="97" style="shortdash"/>
 <text x="91.44" y="33.02" size="2.54" layer="94" font="vector">Version Jumpers</text>
-<text x="114.3" y="25.4" size="2.54" layer="97">AT42QT1010</text>
-<text x="114.3" y="15.24" size="2.54" layer="97">AT42QT1011</text>
-<text x="114.3" y="5.08" size="2.54" layer="97">AT42QT1012</text>
+<text x="114.3" y="25.4" size="2.54" layer="97" font="vector">AT42QT1010</text>
+<text x="114.3" y="15.24" size="2.54" layer="97" font="vector">AT42QT1011</text>
+<text x="114.3" y="5.08" size="2.54" layer="97" font="vector">AT42QT1012</text>
 <text x="91.44" y="93.98" size="2.54" layer="97" font="vector">15</text>
 <text x="91.44" y="71.12" size="3.81" layer="97" rot="R270">8</text>
 <text x="124.46" y="109.22" size="2.54" layer="97" font="vector" align="bottom-center">Mode Select 1012 (JP8)</text>

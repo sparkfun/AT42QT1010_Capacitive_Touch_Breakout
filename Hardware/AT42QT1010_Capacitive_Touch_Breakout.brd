@@ -16,10 +16,10 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -33,9 +33,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
@@ -161,7 +161,7 @@
 <text x="11.43" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">VDD</text>
 <text x="13.97" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">OUT</text>
 <text x="16.51" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">GND</text>
-<text x="6.096" y="1.143" size="1.2192" layer="16" font="vector" ratio="15" rot="MR0" align="center">v11</text>
+<text x="6.096" y="1.143" size="1.2192" layer="16" font="vector" ratio="15" rot="MR0" align="center">v12</text>
 <text x="22.86" y="24.638" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">PAD</text>
 <text x="12.7" y="28.194" size="1.016" layer="21" font="vector" ratio="19" align="bottom-center">AT42QTXXXX
 Capacitive Touch
@@ -228,7 +228,7 @@ Breakout</text>
 no Timeout</text>
 <text x="12.7" y="22.479" size="1.016" layer="21" font="vector" ratio="15">- 1011</text>
 <text x="24.892" y="8.382" size="0.762" layer="21" font="vector" ratio="15" rot="R90">15</text>
-<text x="25.019" y="6.604" size="1.016" layer="21" ratio="15" rot="R180">8</text>
+<text x="25.019" y="6.604" size="1.143" layer="21" ratio="15" rot="R180">8</text>
 <wire x1="24.638" y1="6.858" x2="24.638" y2="7.874" width="0.0762" layer="21"/>
 </plain>
 <libraries>
@@ -1275,12 +1275,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="15.24" y1="11.811" x2="18.63" y2="11.811" width="0.2032" layer="1"/>
 <wire x1="18.63" y1="11.811" x2="18.669" y2="11.772" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$1">
-<wire x1="21.844" y1="12.573" x2="21.844" y2="12.827" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$2">
-<wire x1="22.352" y1="12.573" x2="22.352" y2="12.827" width="0.2032" layer="1"/>
-</signal>
 </signals>
 <errors>
 <approved hash="5,1,0c32252116a2f249"/>
@@ -1288,13 +1282,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,80dbf6e65eb14fc2"/>
 <approved hash="5,1,635be7c4ac53ac06"/>
 <approved hash="5,1,a358c6c6cd51ec05"/>
+<approved hash="5,1,a63ac54bcbcee905"/>
+<approved hash="5,1,86fbf56b5b2e49c4"/>
+<approved hash="5,1,603be249aac8af04"/>
 <approved hash="5,1,0eb22671bd694b5a"/>
 <approved hash="4,1,4b4d9c90694ebadf"/>
 <approved hash="4,1,06e9417ebca0ff7b"/>
 <approved hash="5,1,398e36f8dd9992ef"/>
 <approved hash="5,1,50e41f82f4e3fb85"/>
-<approved hash="5,1,0c32234028cbba59"/>
 <approved hash="5,1,0c3227482cd3ba49"/>
+<approved hash="5,1,0c32234028cbba59"/>
 </errors>
 </board>
 </drawing>
