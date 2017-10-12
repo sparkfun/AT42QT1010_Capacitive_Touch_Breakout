@@ -9972,6 +9972,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0525" y="0.0095" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="BLANK_SOLDER_PAD">
+<description>&lt;h3&gt;Blank Solder Pad &lt;/h3&gt;
+
+Pad used for manufacturing to identify board versions, paste is meant to distinquish the version.</description>
+<polygon width="0.127" layer="1">
+<vertex x="-0.635" y="-0.635"/>
+<vertex x="-0.635" y="0.635"/>
+<vertex x="0.635" y="0.635"/>
+<vertex x="0.635" y="-0.635"/>
+</polygon>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="29"/>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
+<text x="-1.27" y="1.27" size="0.508" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.508" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.889" y1="-0.889" x2="0.889" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.889" x2="0.889" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.889" y1="0.889" x2="-0.889" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="0.889" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AT42QT1010">
@@ -9990,6 +10009,16 @@ or touch, making it ideal for implementing touch controls. &lt;/p&gt;</descripti
 <pin name="VSS" x="-17.78" y="-5.08" length="middle"/>
 <text x="-12.7" y="11.176" size="1.27" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SOLDER_PAD">
+<description>&lt;h3&gt;Solder Pad&lt;/h3&gt;
+Simple solder pad for manufacturing board identification.</description>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.54" y="-2.54"/>
+<vertex x="-2.54" y="-2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -10039,6 +10068,21 @@ required for operation.&lt;/p&gt;
 <attribute name="PROD_ID" value="IC-13773" constant="no"/>
 <attribute name="VALUE" value="AT42QT1010 - UDFN" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER_PAD_LABEL">
+<description>&lt;h3&gt;Solder Pad Label&lt;/h3&gt;
+
+Open solder pad used to distinguish product versions.</description>
+<gates>
+<gate name="G$1" symbol="SOLDER_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLANK_SOLDER_PAD">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10241,11 +10285,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
+<part name="U$2" library="local_parts" deviceset="SOLDER_PAD_LABEL" device=""/>
+<part name="U$3" library="local_parts" deviceset="SOLDER_PAD_LABEL" device=""/>
+<part name="U$4" library="local_parts" deviceset="SOLDER_PAD_LABEL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10262,61 +10306,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="142.24" size="2.54" layer="94" font="vector">SMD Header</text>
 <text x="2.54" y="86.36" size="2.54" layer="94" font="vector">PTH Header</text>
 <text x="2.54" y="2.54" size="2.54" layer="94" font="vector">LED</text>
-<text x="205.74" y="109.22" size="2.54" layer="97" font="vector" align="bottom-center">Mode Select 1010/1011(JP8)</text>
-<text x="172.72" y="93.98" size="2.54" layer="97" font="vector">F</text>
-<text x="172.72" y="68.58" size="2.54" layer="97" font="vector">L</text>
-<text x="180.34" y="103.124" size="2.54" layer="97" font="vector" ratio="15">Fast mode</text>
-<text x="180.34" y="93.98" size="2.54" layer="97" font="vector">Fast response time:
+<text x="144.78" y="106.68" size="3.048" layer="97" font="vector" align="bottom-center">-1010/1011</text>
+<text x="119.38" y="100.584" size="2.54" layer="97" font="vector" ratio="15">Fast mode</text>
+<text x="119.38" y="91.44" size="2.54" layer="97" font="vector">Fast response time:
 1ms delay between samples.</text>
-<text x="180.34" y="80.264" size="2.54" layer="97" font="vector" ratio="15">Low power mode</text>
-<text x="180.34" y="57.15" size="2.54" layer="97" font="vector">(15µA - 75µA draw)</text>
-<text x="180.34" y="63.5" size="2.54" layer="97" font="vector">Slower response time:
+<text x="119.38" y="77.724" size="2.54" layer="97" font="vector" ratio="15">Low power mode</text>
+<text x="119.38" y="54.61" size="2.54" layer="97" font="vector">(15µA - 75µA draw)</text>
+<text x="119.38" y="60.96" size="2.54" layer="97" font="vector">Slower response time:
 80ms sleep at end of sample,
 temporarily switches to fast 
 mode upon detection.</text>
-<text x="180.34" y="87.63" size="2.54" layer="97" font="vector">(200µA - 750µA draw)</text>
-<wire x1="170.18" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="106.68" x2="243.84" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="106.68" x2="243.84" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="83.82" x2="243.84" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="55.88" x2="170.18" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="83.82" x2="170.18" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="106.68" x2="177.8" y2="55.88" width="0.1524" layer="97"/>
+<text x="119.38" y="85.09" size="2.54" layer="97" font="vector">(200µA - 750µA draw)</text>
+<wire x1="182.88" y1="104.14" x2="243.84" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="243.84" y1="104.14" x2="243.84" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="243.84" y1="81.28" x2="243.84" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="243.84" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
 <text x="148.59" y="6.604" size="2.54" layer="94" font="vector">Revised by:</text>
 <text x="174.752" y="6.35" size="2.54" layer="94" font="vector" ratio="10">Elias Santistevan</text>
 <text x="119.38" y="160.02" size="2.54" layer="97" font="vector">VCC Range: 1.8-5.5V</text>
 <text x="15.24" y="27.94" size="1.27" layer="97" font="vector">Remove solder to 
 disconnect LED.</text>
-<wire x1="208.28" y1="115.316" x2="208.28" y2="127" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="208.28" y1="127" x2="205.74" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="38.1" x2="147.32" y2="38.1" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="38.1" x2="147.32" y2="25.4" width="0.2032" layer="97" style="shortdash"/>
-<text x="91.44" y="33.02" size="2.54" layer="94" font="vector">Version Jumpers</text>
-<text x="114.3" y="25.4" size="2.54" layer="97" font="vector">AT42QT1010</text>
-<text x="114.3" y="15.24" size="2.54" layer="97" font="vector">AT42QT1011</text>
-<text x="114.3" y="5.08" size="2.54" layer="97" font="vector">AT42QT1012</text>
-<text x="91.44" y="93.98" size="2.54" layer="97" font="vector">15</text>
-<text x="91.44" y="71.12" size="3.81" layer="97" rot="R270">8</text>
-<text x="124.46" y="109.22" size="2.54" layer="97" font="vector" align="bottom-center">Mode Select 1012 (JP8)</text>
-<wire x1="88.9" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="96.52" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="162.56" y1="106.68" x2="162.56" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="162.56" y1="83.82" x2="162.56" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="162.56" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="96.52" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="88.9" y1="55.88" x2="88.9" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="88.9" y1="83.82" x2="88.9" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="88.9" y1="83.82" x2="162.56" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="96.52" y1="106.68" x2="96.52" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="193.04" y1="124.46" x2="124.46" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="124.46" y1="124.46" x2="124.46" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
-<text x="101.6" y="93.98" size="2.54" layer="97" font="vector">Switch will toggle off after 
+<text x="91.44" y="33.02" size="2.54" layer="94" font="vector">Version Labels</text>
+<text x="106.68" y="25.4" size="2.54" layer="97" font="vector">AT42QT1010</text>
+<text x="106.68" y="15.24" size="2.54" layer="97" font="vector">AT42QT1011</text>
+<text x="106.68" y="5.08" size="2.54" layer="97" font="vector">AT42QT1012</text>
+<text x="126.238" y="114.3" size="3.302" layer="97" font="vector" align="bottom-center">Mode Select (JP8):</text>
+<wire x1="101.6" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="104.14" x2="182.88" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="81.28" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="101.6" y1="53.34" x2="101.6" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="101.6" y1="81.28" x2="101.6" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="101.6" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="104.14" x2="116.84" y2="53.34" width="0.1524" layer="97"/>
+<text x="185.42" y="91.44" size="2.54" layer="97" font="vector">Output will toggle off after 
 15 seconds.</text>
-<text x="99.06" y="68.58" size="2.54" layer="97" font="vector">Switch will never toggle off 
-(infinite).</text>
+<text x="185.42" y="66.04" size="2.54" layer="97" font="vector">Output will never toggle off.</text>
+<wire x1="182.88" y1="81.28" x2="243.84" y2="81.28" width="0.2032" layer="97"/>
+<text x="103.378" y="90.424" size="5.08" layer="97" font="vector" ratio="15">MIN</text>
+<text x="102.87" y="66.04" size="5.08" layer="97" font="vector" ratio="15">MAX</text>
+<text x="205.74" y="106.68" size="3.302" layer="97" font="vector">-1012</text>
+<wire x1="124.46" y1="119.38" x2="124.46" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="124.46" y1="124.46" x2="193.04" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
+<text x="101.6" y="106.68" size="3.048" layer="97" font="vector">AT42QT </text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="165.1" y="139.7"/>
@@ -10366,17 +10402,11 @@ disconnect LED.</text>
 </instance>
 <instance part="U$1" gate="G$1" x="160.02" y="38.1"/>
 <instance part="J1" gate="G$1" x="45.72" y="109.22"/>
-<instance part="JP1" gate="G$1" x="104.14" y="25.4" smashed="yes">
-<attribute name="NAME" x="101.6" y="27.94" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="JP2" gate="G$1" x="104.14" y="15.24" smashed="yes">
-<attribute name="NAME" x="101.6" y="17.78" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="JP3" gate="G$1" x="104.14" y="5.08" smashed="yes">
-<attribute name="NAME" x="101.6" y="7.62" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="LOGO4" gate="G$1" x="223.52" y="38.1"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="38.1"/>
+<instance part="U$2" gate="G$1" x="99.06" y="27.94"/>
+<instance part="U$3" gate="G$1" x="99.06" y="17.78"/>
+<instance part="U$4" gate="G$1" x="99.06" y="7.62"/>
 </instances>
 <busses>
 </busses>

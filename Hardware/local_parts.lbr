@@ -36,9 +36,9 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -218,6 +218,25 @@
 <rectangle x1="-0.5668" y1="-0.3262" x2="-0.262" y2="-0.0468" layer="31"/>
 <rectangle x1="-0.1604" y1="-0.1484" x2="0.1444" y2="0.131" layer="31"/>
 </package>
+<package name="BLANK_SOLDER_PAD">
+<description>&lt;h3&gt;Blank Solder Pad &lt;/h3&gt;
+
+Pad used for manufacturing to identify board versions, paste is meant to distinquish the version.</description>
+<polygon width="0.127" layer="1">
+<vertex x="-0.635" y="-0.635"/>
+<vertex x="-0.635" y="0.635"/>
+<vertex x="0.635" y="0.635"/>
+<vertex x="0.635" y="-0.635"/>
+</polygon>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="29"/>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
+<text x="-1.27" y="1.27" size="0.508" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.508" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.889" y1="-0.889" x2="0.889" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.889" x2="0.889" y2="0.889" width="0.127" layer="21"/>
+<wire x1="0.889" y1="0.889" x2="-0.889" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="0.889" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AT42QT1010">
@@ -270,6 +289,16 @@ or touch, making it ideal for implementing touch controls. &lt;/p&gt;</descripti
 <pin name="VSS" x="-17.78" y="-5.08" length="middle"/>
 <text x="-12.7" y="11.176" size="1.27" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SOLDER_PAD">
+<description>&lt;h3&gt;Solder Pad&lt;/h3&gt;
+Simple solder pad for manufacturing board identification.</description>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.54" y="-2.54"/>
+<vertex x="-2.54" y="-2.54"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -387,6 +416,21 @@ conditions; only low cost, noncritical components are required for operation.&lt
 <connect gate="G$1" pin="VDD" pad="7"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER_PAD_LABEL">
+<description>&lt;h3&gt;Solder Pad Label&lt;/h3&gt;
+
+Open solder pad used to distinguish product versions.</description>
+<gates>
+<gate name="G$1" symbol="SOLDER_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLANK_SOLDER_PAD">
 <technologies>
 <technology name=""/>
 </technologies>
