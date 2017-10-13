@@ -205,8 +205,8 @@ Breakout
 <wire x1="22.86" y1="0" x2="2.54" y2="0" width="0.2032" layer="20"/>
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.2032" layer="20" curve="-90"/>
 <text x="-10.16" y="-35.56" size="1.27" layer="51" font="vector" ratio="15" align="bottom-center">The 0.09055118 in. (2.3mm) hole is NPTH hole</text>
-<text x="-3.81" y="-20.32" size="1.905" layer="51" font="vector">Revised by: </text>
-<text x="14.732" y="-20.828" size="1.905" layer="51" font="vector">Elias Santistevan</text>
+<text x="-3.81" y="-20.32" size="1.778" layer="51" font="vector">Revised by: </text>
+<text x="13.335" y="-20.574" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <dimension x1="0" y1="33.02" x2="25.4" y2="33.02" x3="12.7" y3="39.37" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="33.02" x2="0" y2="0" x3="-7.62" y3="16.51" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="22.86" y1="30.48" x2="25.4" y2="30.48" x3="24.13" y3="35.56" textsize="1.27" textratio="15" layer="47" unit="inch"/>
@@ -230,6 +230,24 @@ no Timeout</text>
 <text x="21.717" y="5.969" size="0.9652" layer="21" font="vector" ratio="15" rot="R90">MODE</text>
 <text x="25.146" y="6.223" size="1.016" layer="21" font="vector" ratio="15" rot="R90">1</text>
 <text x="25.146" y="8.255" size="1.016" layer="21" font="vector" ratio="15" rot="R90">2</text>
+<polygon width="0.2032" layer="21">
+<vertex x="1.27" y="26.67"/>
+<vertex x="1.27" y="25.4"/>
+<vertex x="2.54" y="25.4"/>
+<vertex x="2.54" y="26.67"/>
+</polygon>
+<polygon width="0.2032" layer="21">
+<vertex x="1.27" y="23.876"/>
+<vertex x="1.27" y="22.606"/>
+<vertex x="2.54" y="22.606"/>
+<vertex x="2.54" y="23.876"/>
+</polygon>
+<polygon width="0.2032" layer="21">
+<vertex x="1.27" y="21.082"/>
+<vertex x="1.27" y="19.812"/>
+<vertex x="2.54" y="19.812"/>
+<vertex x="2.54" y="21.082"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -776,25 +794,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.5668" y1="-0.3262" x2="-0.262" y2="-0.0468" layer="31"/>
 <rectangle x1="-0.1604" y1="-0.1484" x2="0.1444" y2="0.131" layer="31"/>
 </package>
-<package name="BLANK_SOLDER_PAD">
-<description>&lt;h3&gt;Blank Solder Pad &lt;/h3&gt;
-
-Pad used for manufacturing to identify board versions, paste is meant to distinquish the version.</description>
-<polygon width="0.127" layer="1">
-<vertex x="-0.635" y="-0.635"/>
-<vertex x="-0.635" y="0.635"/>
-<vertex x="0.635" y="0.635"/>
-<vertex x="0.635" y="-0.635"/>
-</polygon>
-<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="29"/>
-<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
-<text x="-1.27" y="1.27" size="0.508" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-1.27" y="-1.905" size="0.508" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<wire x1="-0.889" y1="-0.889" x2="0.889" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="0.889" y1="-0.889" x2="0.889" y2="0.889" width="0.127" layer="21"/>
-<wire x1="0.889" y1="0.889" x2="-0.889" y2="0.889" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="0.889" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Hardware">
@@ -1087,9 +1086,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="4.064" y="17.018" rot="MR0"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="17.78" y="15.24"/>
-<element name="U$2" library="local_parts" package="BLANK_SOLDER_PAD" value="SOLDER_PAD_LABEL" x="1.905" y="26.035" rot="R90"/>
-<element name="U$3" library="local_parts" package="BLANK_SOLDER_PAD" value="SOLDER_PAD_LABEL" x="1.905" y="23.368" rot="R90"/>
-<element name="U$4" library="local_parts" package="BLANK_SOLDER_PAD" value="SOLDER_PAD_LABEL" x="1.905" y="20.574" rot="R90"/>
 </elements>
 <signals>
 <signal name="VCC">
