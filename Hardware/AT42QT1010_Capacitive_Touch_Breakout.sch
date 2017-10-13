@@ -10327,7 +10327,6 @@ mode upon detection.</text>
 <text x="15.24" y="27.94" size="1.27" layer="97" font="vector">Remove solder to 
 disconnect LED.</text>
 <wire x1="86.36" y1="38.1" x2="147.32" y2="38.1" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="147.32" y1="38.1" x2="147.32" y2="25.4" width="0.2032" layer="97" style="shortdash"/>
 <text x="91.44" y="33.02" size="2.54" layer="94" font="vector">Version Labels</text>
 <text x="106.68" y="25.4" size="2.54" layer="97" font="vector">AT42QT1010</text>
 <text x="106.68" y="15.24" size="2.54" layer="97" font="vector">AT42QT1011</text>
@@ -10345,14 +10344,16 @@ disconnect LED.</text>
 <wire x1="116.84" y1="104.14" x2="116.84" y2="53.34" width="0.1524" layer="97"/>
 <text x="185.42" y="91.44" size="2.54" layer="97" font="vector">Output will toggle off after 
 15 seconds.</text>
-<text x="185.42" y="66.04" size="2.54" layer="97" font="vector">Output will never toggle off.</text>
+<text x="185.42" y="66.04" size="2.54" layer="97" font="vector">Output will never toggle 
+off.</text>
 <wire x1="182.88" y1="81.28" x2="243.84" y2="81.28" width="0.2032" layer="97"/>
-<text x="103.378" y="90.424" size="5.08" layer="97" font="vector" ratio="15">MIN</text>
-<text x="102.87" y="66.04" size="5.08" layer="97" font="vector" ratio="15">MAX</text>
+<text x="108.458" y="90.424" size="5.08" layer="97" font="vector" ratio="15">1</text>
+<text x="107.95" y="66.04" size="5.08" layer="97" font="vector" ratio="15">2</text>
 <text x="205.74" y="106.68" size="3.302" layer="97" font="vector">-1012</text>
 <wire x1="124.46" y1="119.38" x2="124.46" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="124.46" y1="124.46" x2="193.04" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
 <text x="101.6" y="106.68" size="3.048" layer="97" font="vector">AT42QT </text>
+<wire x1="147.32" y1="38.1" x2="147.32" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="165.1" y="139.7"/>

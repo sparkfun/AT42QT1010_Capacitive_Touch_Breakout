@@ -16,7 +16,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -219,17 +219,17 @@ Breakout
 <rectangle x1="22.098" y1="13.081" x2="22.479" y2="13.589" layer="41"/>
 <rectangle x1="21.971" y1="14.351" x2="22.352" y2="14.859" layer="41"/>
 <rectangle x1="7.62" y1="7.874" x2="8.001" y2="8.382" layer="41"/>
-<text x="3.556" y="25.781" size="1.016" layer="21" font="vector" ratio="15">Momentary</text>
-<text x="3.556" y="20.066" size="1.016" layer="21" font="vector" ratio="15">Toggle</text>
-<text x="3.556" y="22.098" size="1.016" layer="21" font="vector" ratio="15">Momentary 
+<text x="3.81" y="25.781" size="1.016" layer="21" font="vector" ratio="15">Momentary</text>
+<text x="3.81" y="20.066" size="1.016" layer="21" font="vector" ratio="15">Toggle</text>
+<text x="3.81" y="22.098" size="1.016" layer="21" font="vector" ratio="15">Momentary 
 no Timeout</text>
 <text x="13.335" y="22.733" size="1.016" layer="21" font="vector" ratio="15">-1011</text>
 <text x="13.335" y="25.527" size="1.016" layer="21" font="vector" ratio="15">-1010</text>
 <text x="13.335" y="20.066" size="1.016" layer="21" font="vector" ratio="15">-1012</text>
 <text x="7.62" y="27.94" size="1.016" layer="21" font="vector" ratio="15">AT42QT-XXXX</text>
 <text x="21.717" y="5.969" size="0.9652" layer="21" font="vector" ratio="15" rot="R90">MODE</text>
-<text x="25.019" y="4.699" size="1.016" layer="21" font="vector" ratio="15" rot="R90">MIN</text>
-<text x="24.003" y="11.176" size="1.016" layer="21" font="vector" ratio="15" rot="R270">MAX</text>
+<text x="25.146" y="6.223" size="1.016" layer="21" font="vector" ratio="15" rot="R90">1</text>
+<text x="25.146" y="8.255" size="1.016" layer="21" font="vector" ratio="15" rot="R90">2</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
