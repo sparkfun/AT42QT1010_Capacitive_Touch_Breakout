@@ -10228,7 +10228,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="STANDOFF3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_LONG" value="SMD"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD" value="SMD"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED-GREEN" device="1206-BOTTOM" value="Green"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -10248,7 +10248,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="171.958" y="11.43" size="2.794" layer="94" font="vector">Shawn Hymel</text>
-<text x="236.474" y="6.604" size="3.81" layer="94" font="vector">v12</text>
+<text x="236.474" y="6.604" size="3.81" layer="94" font="vector">v20</text>
 <wire x1="86.36" y1="185.42" x2="86.36" y2="139.7" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="139.7" x2="86.36" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="86.36" y1="83.82" x2="86.36" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
@@ -10324,6 +10324,10 @@ off.</text>
 <vertex x="101.6" y="7.62"/>
 <vertex x="101.6" y="10.16"/>
 </polygon>
+<text x="200.66" y="119.38" size="3.048" layer="97" font="vector" ratio="15">1</text>
+<text x="200.66" y="132.08" size="3.048" layer="97" font="vector" ratio="15">2</text>
+<wire x1="196.596" y1="120.65" x2="199.898" y2="120.65" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="196.342" y1="133.35" x2="199.898" y2="133.35" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="165.1" y="139.7"/>

@@ -16,7 +16,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -161,7 +161,7 @@
 <text x="11.43" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">VDD</text>
 <text x="13.97" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">OUT</text>
 <text x="16.51" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">GND</text>
-<text x="6.096" y="1.143" size="1.2192" layer="16" font="vector" ratio="15" rot="MR0" align="center">v12</text>
+<text x="6.096" y="1.143" size="1.2192" layer="16" font="vector" ratio="15" rot="MR0" align="center">v20</text>
 <text x="22.86" y="24.638" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">PAD</text>
 <text x="12.7" y="28.194" size="1.016" layer="21" font="vector" ratio="19" align="bottom-center">Capacitive Touch
 Breakout
@@ -567,9 +567,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="1X04_SMD_LONG">
-<description>&lt;h3&gt;SMD - 4 Pin w/ Long Solder Pads&lt;/h3&gt;
-No silk, but tDocu layer shows pin position. 
+<package name="1X04_SMD_RA_MALE">
+<description>&lt;h3&gt;SMD - 4 Pin Right Angle Male Header&lt;/h3&gt;
+tDocu layer shows pin locations.
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
@@ -589,12 +589,14 @@ No silk, but tDocu layer shows pin position.
 <wire x1="1.27" y1="-1.25" x2="1.27" y2="-7.25" width="0.127" layer="51"/>
 <wire x1="-1.27" y1="-1.25" x2="-1.27" y2="-7.25" width="0.127" layer="51"/>
 <wire x1="-3.81" y1="-1.25" x2="-3.81" y2="-7.25" width="0.127" layer="51"/>
-<smd name="4" x="3.81" y="5.5" dx="4" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="1.27" y="5.5" dx="4" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="-1.27" y="5.5" dx="4" dy="1" layer="1" rot="R90"/>
-<smd name="1" x="-3.81" y="5.5" dx="4" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="3.81" y="5" dx="3" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.27" y="5" dx="3" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.27" y="5" dx="3" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-3.81" y="5" dx="3" dy="1" layer="1" rot="R90"/>
 <hole x="-2.54" y="0" drill="1.4"/>
 <hole x="2.54" y="0" drill="1.4"/>
+<text x="-4.318" y="6.731" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-4.318" y="2.667" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="PAD-1.5X4.5">
 <smd name="P$1" x="0" y="0" dx="1.5" dy="2" layer="1"/>
@@ -1065,7 +1067,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="21.2852" y="21.0058" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="21.59" y="19.685" size="1.27" layer="27"/>
 </element>
-<element name="JP6" library="SparkFun-Connectors" package="1X04_SMD_LONG" value="SMD" x="12.7" y="1.27">
+<element name="JP6" library="SparkFun-Connectors" package="1X04_SMD_RA_MALE" value="SMD" x="12.7" y="1.27">
 <attribute name="SF_ID" value="PRT-12638" x="12.7" y="1.27" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="CONN-09140" x="12.7" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
@@ -1101,10 +1103,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="21.59" y1="8.382" x2="22.8092" y2="8.382" width="0.254" layer="1"/>
 <wire x1="22.8092" y1="8.382" x2="22.86" y2="8.4328" width="0.254" layer="1"/>
 <contactref element="J1" pad="3"/>
-<wire x1="11.43" y1="3.429" x2="11.43" y2="6.77" width="0.254" layer="1"/>
+<wire x1="11.43" y1="3.429" x2="11.43" y2="6.27" width="0.254" layer="1"/>
 <wire x1="21.59" y1="8.89" x2="21.59" y2="8.382" width="0.2032" layer="1"/>
 <wire x1="18.669" y1="10.072" x2="18.669" y2="8.89" width="0.2032" layer="1"/>
-<wire x1="11.43" y1="6.77" x2="11.43" y2="8.89" width="0.2032" layer="1"/>
+<wire x1="11.43" y1="6.27" x2="11.43" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="11.43" y1="8.89" x2="12.7" y2="10.16" width="0.2032" layer="1"/>
 <via x="12.7" y="10.16" extent="1-16" drill="0.381"/>
 <wire x1="12.7" y1="10.16" x2="15.24" y2="10.16" width="0.2032" layer="16"/>
@@ -1176,10 +1178,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="5"/>
 <contactref element="JP7" pad="1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="13.97" y1="6.77" x2="13.97" y2="3.429" width="0.254" layer="1"/>
+<wire x1="13.97" y1="6.27" x2="13.97" y2="3.429" width="0.254" layer="1"/>
 <wire x1="4.826" y1="8.2804" x2="7.0104" y2="8.2804" width="0.2032" layer="1"/>
 <wire x1="7.62" y1="8.89" x2="7.62" y2="10.668" width="0.2032" layer="1"/>
-<wire x1="13.97" y1="10.922" x2="13.97" y2="6.77" width="0.2032" layer="1"/>
+<wire x1="13.97" y1="10.922" x2="13.97" y2="6.27" width="0.2032" layer="1"/>
 <wire x1="19.812" y1="10.922" x2="13.97" y2="10.922" width="0.2032" layer="1"/>
 <wire x1="7.62" y1="10.668" x2="7.874" y2="10.922" width="0.2032" layer="1"/>
 <wire x1="7.874" y1="10.922" x2="13.97" y2="10.922" width="0.2032" layer="1"/>
@@ -1197,14 +1199,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="JP7" pad="2"/>
 <contactref element="J1" pad="4"/>
 <wire x1="8.89" y1="3.81" x2="8.89" y2="3.429" width="0.254" layer="16"/>
-<wire x1="8.89" y1="6.77" x2="8.89" y2="3.429" width="0.254" layer="1"/>
-<wire x1="8.6224" y1="6.5024" x2="8.89" y2="6.77" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="6.27" x2="8.89" y2="3.429" width="0.254" layer="1"/>
+<wire x1="8.6224" y1="6.5024" x2="8.89" y2="6.27" width="0.2032" layer="1"/>
 <wire x1="4.6736" y1="7.62" x2="4.826" y2="7.4676" width="0.2032" layer="1"/>
 <wire x1="4.826" y1="7.4676" x2="2.6924" y2="7.4676" width="0.2032" layer="1"/>
 <wire x1="2.6924" y1="7.4676" x2="2.54" y2="7.62" width="0.2032" layer="1"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="9.691" width="0.2032" layer="1"/>
 <wire x1="4.826" y1="7.4676" x2="8.1924" y2="7.4676" width="0.2032" layer="1"/>
-<wire x1="8.1924" y1="7.4676" x2="8.89" y2="6.77" width="0.2032" layer="1"/>
+<wire x1="8.1924" y1="7.4676" x2="8.89" y2="6.27" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="8"/>
