@@ -171,7 +171,7 @@ Breakout
 <rectangle x1="22.86" y1="0" x2="25.4" y2="2.54" layer="41"/>
 <rectangle x1="0" y1="30.48" x2="2.54" y2="33.02" layer="41"/>
 <rectangle x1="22.86" y1="30.48" x2="25.4" y2="33.02" layer="41"/>
-<text x="23.622" y="24.638" size="1.016" layer="21" font="vector" ratio="19" rot="R180" align="top-center">PAD</text>
+<text x="22.987" y="24.638" size="1.016" layer="21" font="vector" ratio="19" rot="R180" align="top-center">PAD</text>
 <text x="8.89" y="9.398" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">LED</text>
 <text x="11.43" y="9.398" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">VDD</text>
 <text x="13.97" y="9.398" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">OUT</text>
@@ -1067,12 +1067,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-11076" x="12.7" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="Green" x="12.7" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="31.75"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="31.75"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="1.27"/>
 <element name="JP9" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="M01SMD-4.5X1.5" x="22.86" y="20.32" smashed="yes" rot="R90"/>
 <element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_SILK" value="JUMPER-SMT_3_NO_SILK" x="22.86" y="7.62" rot="R270"/>
 <element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="1.27" rot="MR0"/>
-<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="31.75" rot="MR0"/>
+<element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="31.75" rot="MR0"/>
 <element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="JUMPER-SMT_2_NO_SILK" x="4.826" y="7.874" rot="R270"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-35.56" y="-21.59"/>
 <element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="16.51" y="3.429" rot="R180">
