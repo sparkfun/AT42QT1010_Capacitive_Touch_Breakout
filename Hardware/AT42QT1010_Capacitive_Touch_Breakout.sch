@@ -154,7 +154,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -10259,73 +10259,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="180.34" size="2.54" layer="94" font="vector">SMD Header</text>
 <text x="2.54" y="132.08" size="2.54" layer="94" font="vector">PTH Header</text>
 <text x="2.54" y="78.74" size="2.54" layer="94" font="vector">LED</text>
-<text x="144.78" y="106.68" size="3.048" layer="97" font="vector" align="bottom-center">-1010/1011</text>
-<text x="119.38" y="100.584" size="2.54" layer="97" font="vector" ratio="15">Fast mode</text>
-<text x="119.38" y="91.44" size="2.54" layer="97" font="vector">Fast response time:
+<text x="180.34" y="106.68" size="3.048" layer="97" font="vector" align="bottom-center">-1010/1011</text>
+<text x="154.94" y="100.584" size="2.54" layer="97" font="vector" ratio="15">Fast mode</text>
+<text x="154.94" y="91.44" size="2.54" layer="97" font="vector">Fast response time:
 1ms delay between samples.</text>
-<text x="119.38" y="77.724" size="2.54" layer="97" font="vector" ratio="15">Low power mode</text>
-<text x="119.38" y="54.61" size="2.54" layer="97" font="vector">(15µA - 75µA draw)</text>
-<text x="119.38" y="60.96" size="2.54" layer="97" font="vector">Slower response time:
+<text x="154.94" y="77.724" size="2.54" layer="97" font="vector" ratio="15">Low power mode</text>
+<text x="154.94" y="54.61" size="2.54" layer="97" font="vector">(15µA - 75µA draw)</text>
+<text x="154.94" y="60.96" size="2.54" layer="97" font="vector">Slower response time:
 80ms sleep at end of sample,
 temporarily switches to fast 
 mode upon detection.</text>
-<text x="119.38" y="85.09" size="2.54" layer="97" font="vector">(200µA - 750µA draw)</text>
-<wire x1="182.88" y1="104.14" x2="243.84" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="104.14" x2="243.84" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="81.28" x2="243.84" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="243.84" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
+<text x="154.94" y="85.09" size="2.54" layer="97" font="vector">(200µA - 750µA draw)</text>
 <text x="148.59" y="6.604" size="2.54" layer="94" font="vector">Revised by:</text>
 <text x="174.752" y="6.35" size="2.54" layer="94" font="vector" ratio="10">Elias Santistevan</text>
 <text x="119.38" y="160.02" size="2.54" layer="97" font="vector">VCC Range: 1.8-5.5V</text>
 <text x="15.24" y="27.94" size="1.27" layer="97" font="vector">Remove solder to 
 disconnect LED.</text>
-<text x="126.238" y="114.3" size="3.302" layer="97" font="vector" ratio="10" align="bottom-center">Mode Select (JP8):</text>
-<wire x1="101.6" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="116.84" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="104.14" x2="182.88" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="81.28" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="116.84" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="101.6" y1="53.34" x2="101.6" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="101.6" y1="81.28" x2="101.6" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="101.6" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="116.84" y1="104.14" x2="116.84" y2="53.34" width="0.1524" layer="97"/>
-<text x="185.42" y="91.44" size="2.54" layer="97" font="vector">Output will toggle off after 
-15 seconds.</text>
-<text x="185.42" y="66.04" size="2.54" layer="97" font="vector">Output will never toggle 
-off.</text>
-<wire x1="182.88" y1="81.28" x2="243.84" y2="81.28" width="0.2032" layer="97"/>
-<text x="108.458" y="90.424" size="5.08" layer="97" font="vector" ratio="15">1</text>
-<text x="107.95" y="66.04" size="5.08" layer="97" font="vector" ratio="15">2</text>
-<text x="205.74" y="106.68" size="3.302" layer="97" font="vector">-1012</text>
-<wire x1="124.46" y1="119.38" x2="124.46" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="124.46" y1="124.46" x2="193.04" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
-<text x="101.6" y="106.68" size="3.048" layer="97" font="vector">AT42QT </text>
+<text x="161.798" y="111.76" size="3.302" layer="97" font="vector" ratio="10" align="bottom-center">Mode Select (JP8):</text>
+<wire x1="137.16" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="104.14" x2="218.44" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="104.14" x2="218.44" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="81.28" x2="218.44" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="53.34" x2="137.16" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="81.28" x2="137.16" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="81.28" x2="218.44" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="53.34" width="0.1524" layer="97"/>
+<text x="141.478" y="90.424" size="5.08" layer="97" font="vector" ratio="15">1</text>
+<text x="143.51" y="66.04" size="5.08" layer="97" font="vector" ratio="15">2</text>
+<wire x1="160.02" y1="116.84" x2="160.02" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="160.02" y1="124.46" x2="193.04" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
+<text x="137.16" y="106.68" size="3.048" layer="97" font="vector">AT42QT </text>
 <wire x1="86.36" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <text x="88.9" y="30.48" size="2.54" layer="94" font="vector">Versions</text>
-<text x="106.68" y="22.86" size="2.54" layer="97" font="vector">AT42QT010</text>
-<text x="106.68" y="15.24" size="2.54" layer="97" font="vector">AT42QT011</text>
-<text x="106.68" y="7.62" size="2.54" layer="97" font="vector">AT42QT012</text>
+<text x="106.68" y="20.32" size="2.54" layer="97" font="vector">AT42QT1010</text>
+<text x="106.68" y="12.7" size="2.54" layer="97" font="vector">AT42QT1011</text>
 <polygon width="0.2032" layer="97">
-<vertex x="99.06" y="25.4"/>
 <vertex x="99.06" y="22.86"/>
+<vertex x="99.06" y="20.32"/>
+<vertex x="101.6" y="20.32"/>
 <vertex x="101.6" y="22.86"/>
-<vertex x="101.6" y="25.4"/>
 </polygon>
 <polygon width="0.2032" layer="97">
-<vertex x="99.06" y="17.78"/>
 <vertex x="99.06" y="15.24"/>
+<vertex x="99.06" y="12.7"/>
+<vertex x="101.6" y="12.7"/>
 <vertex x="101.6" y="15.24"/>
-<vertex x="101.6" y="17.78"/>
 </polygon>
-<polygon width="0.2032" layer="97">
-<vertex x="99.06" y="10.16"/>
-<vertex x="99.06" y="7.62"/>
-<vertex x="101.6" y="7.62"/>
-<vertex x="101.6" y="10.16"/>
-</polygon>
-<text x="200.66" y="119.38" size="3.048" layer="97" font="vector" ratio="15">1</text>
-<text x="200.66" y="132.08" size="3.048" layer="97" font="vector" ratio="15">2</text>
+<text x="200.66" y="132.08" size="3.048" layer="97" font="vector" ratio="15">1</text>
+<text x="200.66" y="119.38" size="3.048" layer="97" font="vector" ratio="15">2</text>
 <wire x1="196.596" y1="120.65" x2="199.898" y2="120.65" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="196.342" y1="133.35" x2="199.898" y2="133.35" width="0.2032" layer="97" style="shortdash"/>
 </plain>

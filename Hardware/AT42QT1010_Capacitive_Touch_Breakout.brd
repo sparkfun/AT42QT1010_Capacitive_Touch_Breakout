@@ -58,7 +58,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -219,34 +219,26 @@ Breakout
 <rectangle x1="22.098" y1="13.081" x2="22.479" y2="13.589" layer="41"/>
 <rectangle x1="21.971" y1="14.351" x2="22.352" y2="14.859" layer="41"/>
 <rectangle x1="7.62" y1="7.874" x2="8.001" y2="8.382" layer="41"/>
-<text x="3.81" y="25.781" size="1.016" layer="21" font="vector" ratio="15">Momentary</text>
-<text x="3.81" y="20.066" size="1.016" layer="21" font="vector" ratio="15">Toggle</text>
-<text x="3.81" y="22.098" size="1.016" layer="21" font="vector" ratio="15">Momentary 
+<text x="3.81" y="24.511" size="1.016" layer="21" font="vector" ratio="15">Momentary</text>
+<text x="3.81" y="19.558" size="1.016" layer="21" font="vector" ratio="15">Momentary 
 no Timeout</text>
-<text x="13.335" y="22.733" size="1.016" layer="21" font="vector" ratio="15">-1011</text>
-<text x="13.335" y="25.527" size="1.016" layer="21" font="vector" ratio="15">-1010</text>
-<text x="13.335" y="20.066" size="1.016" layer="21" font="vector" ratio="15">-1012</text>
+<text x="13.335" y="20.193" size="1.016" layer="21" font="vector" ratio="15">-1011</text>
+<text x="13.335" y="24.257" size="1.016" layer="21" font="vector" ratio="15">-1010</text>
 <text x="7.62" y="27.94" size="1.016" layer="21" font="vector" ratio="15">AT42QT-XXXX</text>
 <text x="21.717" y="5.969" size="0.9652" layer="21" font="vector" ratio="15" rot="R90">MODE</text>
-<text x="25.146" y="6.223" size="1.016" layer="21" font="vector" ratio="15" rot="R90">1</text>
-<text x="25.146" y="8.255" size="1.016" layer="21" font="vector" ratio="15" rot="R90">2</text>
+<text x="25.146" y="8.255" size="1.016" layer="21" font="vector" ratio="15" rot="R90">1</text>
+<text x="25.146" y="6.223" size="1.016" layer="21" font="vector" ratio="15" rot="R90">2</text>
 <polygon width="0.2032" layer="21">
-<vertex x="1.27" y="26.67"/>
 <vertex x="1.27" y="25.4"/>
+<vertex x="1.27" y="24.13"/>
+<vertex x="2.54" y="24.13"/>
 <vertex x="2.54" y="25.4"/>
-<vertex x="2.54" y="26.67"/>
 </polygon>
 <polygon width="0.2032" layer="21">
-<vertex x="1.27" y="23.876"/>
-<vertex x="1.27" y="22.606"/>
-<vertex x="2.54" y="22.606"/>
-<vertex x="2.54" y="23.876"/>
-</polygon>
-<polygon width="0.2032" layer="21">
-<vertex x="1.27" y="21.082"/>
-<vertex x="1.27" y="19.812"/>
-<vertex x="2.54" y="19.812"/>
-<vertex x="2.54" y="21.082"/>
+<vertex x="1.27" y="21.336"/>
+<vertex x="1.27" y="20.066"/>
+<vertex x="2.54" y="20.066"/>
+<vertex x="2.54" y="21.336"/>
 </polygon>
 </plain>
 <libraries>
