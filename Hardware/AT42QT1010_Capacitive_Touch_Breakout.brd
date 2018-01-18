@@ -58,7 +58,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -715,7 +715,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_3_NO_SILK">
+<package name="SMT-JUMPER_3_1-NC_PASTE_SILK">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
@@ -726,11 +726,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
-<package name="SMT-JUMPER_2_NO_SILK">
+<package name="SMT-JUMPER_2_NC_PASTE_SILK">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
@@ -741,6 +742,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
@@ -1069,10 +1071,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="2.54" y="26.797"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="1.27"/>
 <element name="JP9" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="M01SMD-4.5X1.5" x="22.86" y="20.32" smashed="yes" rot="R90"/>
-<element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_SILK" value="JUMPER-SMT_3_NO_SILK" x="22.86" y="7.62" rot="R270"/>
+<element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_PASTE_SILK" value="JUMPER-SMT_3_1-NC_PASTE_SILK" x="22.86" y="7.62" rot="R90"/>
 <element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="1.27" rot="MR0"/>
 <element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="2.54" y="26.797" rot="MR0"/>
-<element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="JUMPER-SMT_2_NO_SILK" x="4.826" y="7.874" rot="R270"/>
+<element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_PASTE_SILK" value="JUMPER-SMT_2_NC_PASTE_SILK" x="4.826" y="7.874" rot="R270"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="-35.56" y="-21.59"/>
 <element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="16.51" y="3.429" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="16.51" y="3.429" size="1.27" layer="27" ratio="15" rot="R180" display="off"/>
@@ -1086,13 +1088,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R3" pad="2"/>
 <contactref element="U1" pad="7"/>
 <contactref element="JP6" pad="2"/>
-<contactref element="JP8" pad="1"/>
-<wire x1="22.8228" y1="8.47" x2="22.86" y2="8.4328" width="0.254" layer="1"/>
 <wire x1="19.177" y1="8.382" x2="19.177" y2="7.327" width="0.254" layer="1"/>
 <wire x1="19.177" y1="7.327" x2="19.05" y2="7.2" width="0.254" layer="1"/>
 <wire x1="19.177" y1="8.382" x2="21.59" y2="8.382" width="0.254" layer="1"/>
-<wire x1="21.59" y1="8.382" x2="22.8092" y2="8.382" width="0.254" layer="1"/>
-<wire x1="22.8092" y1="8.382" x2="22.86" y2="8.4328" width="0.254" layer="1"/>
 <contactref element="J1" pad="3"/>
 <wire x1="11.43" y1="3.429" x2="11.43" y2="6.27" width="0.254" layer="1"/>
 <wire x1="21.59" y1="8.89" x2="21.59" y2="8.382" width="0.2032" layer="1"/>
@@ -1107,6 +1105,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.348" y1="10.8324" x2="22.348" y2="9.648" width="0.2032" layer="1"/>
 <wire x1="22.348" y1="9.648" x2="21.59" y2="8.89" width="0.2032" layer="1"/>
 <wire x1="19.177" y1="8.382" x2="18.669" y2="8.89" width="0.2032" layer="1"/>
+<contactref element="JP8" pad="3"/>
+<wire x1="21.59" y1="8.382" x2="22.86" y2="8.382" width="0.2032" layer="1"/>
+<wire x1="22.86" y1="8.382" x2="22.86" y2="8.4328" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
@@ -1149,7 +1150,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </polygon>
 <contactref element="JP6" pad="4"/>
 <via x="19.05" y="3.81" extent="1-16" drill="0.381"/>
-<contactref element="JP8" pad="3"/>
 <via x="1.016" y="16.002" extent="1-16" drill="0.381"/>
 <via x="24.13" y="13.97" extent="1-16" drill="0.381"/>
 <contactref element="J1" pad="1"/>
@@ -1163,6 +1163,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="20.066" y1="12.954" x2="20.193" y2="13.081" width="0.2032" layer="1"/>
 <wire x1="20.193" y1="13.081" x2="21.209" y2="13.081" width="0.2032" layer="1"/>
 <via x="15.24" y="6.858" extent="1-16" drill="0.381"/>
+<contactref element="JP8" pad="1"/>
 </signal>
 <signal name="OUT">
 <contactref element="JP6" pad="3"/>
@@ -1243,18 +1244,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.86" y1="17.36" x2="22.86" y2="20.32" width="0.254" layer="1"/>
 <wire x1="12.954" y1="22.86" x2="22.86" y2="22.86" width="0.254" layer="16"/>
 </signal>
-<signal name="N$7">
-<contactref element="U1" pad="6"/>
-<contactref element="JP8" pad="2"/>
-<wire x1="22.86" y1="7.62" x2="20.574" y2="7.62" width="0.254" layer="1"/>
-<via x="20.447" y="7.493" extent="1-16" drill="0.381"/>
-<wire x1="20.447" y1="7.493" x2="20.447" y2="9.144" width="0.254" layer="16"/>
-<via x="20.447" y="9.144" extent="1-16" drill="0.381"/>
-<wire x1="20.574" y1="7.62" x2="20.447" y2="7.493" width="0.254" layer="1"/>
-<wire x1="21.848" y1="9.783" x2="21.209" y2="9.144" width="0.2032" layer="1"/>
-<wire x1="21.209" y1="9.144" x2="20.447" y2="9.144" width="0.2032" layer="1"/>
-<wire x1="21.848" y1="10.8324" x2="21.848" y2="9.783" width="0.2032" layer="1"/>
-</signal>
 <signal name="N$10">
 <contactref element="R2" pad="2"/>
 <contactref element="Q1" pad="1"/>
@@ -1288,6 +1277,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$2">
 <wire x1="22.352" y1="12.573" x2="22.352" y2="12.827" width="0.254" layer="1"/>
 </signal>
+<signal name="N$3">
+<contactref element="U1" pad="6"/>
+<contactref element="JP8" pad="2"/>
+<wire x1="21.848" y1="10.8324" x2="21.844" y2="10.8324" width="0.2032" layer="1"/>
+<wire x1="21.844" y1="10.8324" x2="21.844" y2="9.779" width="0.2032" layer="1"/>
+<wire x1="22.86" y1="7.62" x2="20.32" y2="7.62" width="0.2032" layer="1"/>
+<via x="20.32" y="7.62" extent="1-16" drill="0.381"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="9.144" width="0.2032" layer="16"/>
+<wire x1="21.209" y1="9.144" x2="20.32" y2="9.144" width="0.2032" layer="1"/>
+<via x="20.32" y="9.144" extent="1-16" drill="0.381"/>
+<wire x1="21.844" y1="9.779" x2="21.209" y2="9.144" width="0.2032" layer="1"/>
+</signal>
 </signals>
 <errors>
 <approved hash="5,1,0c32252116a2f249"/>
@@ -1301,8 +1302,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,0eb22671bd694b5a"/>
 <approved hash="4,1,4b4d9c90694ebadf"/>
 <approved hash="4,1,06e9417ebca0ff7b"/>
-<approved hash="5,1,398e36f8dd9992ef"/>
 <approved hash="5,1,50e41f82f4e3fb85"/>
+<approved hash="5,1,398e36f8dd9992ef"/>
 <approved hash="19,1,ecb47141576c205c"/>
 <approved hash="19,1,ee43648cdbf0731c"/>
 <approved hash="5,1,0c3227482cd3ba49"/>

@@ -9710,7 +9710,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_3_NO_SILK">
+<package name="SMT-JUMPER_3_1-NC_PASTE_SILK">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
@@ -9721,46 +9721,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
-<package name="SMT-JUMPER_3_NO_NO-SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_NO-SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
-</polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
-</polygon>
-</package>
-<package name="SMT-JUMPER_2_NO_SILK">
+<package name="SMT-JUMPER_2_NC_PASTE_SILK">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
@@ -9771,35 +9737,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
 <smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
-<package name="SMT-JUMPER_2_NO_SILK_ROUND">
-<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
-<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
-<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.00508125" layer="1">
-<vertex x="0.111125" y="-1.42875" curve="85"/>
-<vertex x="1.381125" y="0" curve="85"/>
-<vertex x="0.111125" y="1.42875"/>
-</polygon>
-<polygon width="0.00508125" layer="1">
-<vertex x="-0.111125" y="1.42875"/>
-<vertex x="-0.111125" y="-1.42875" curve="-85"/>
-<vertex x="-1.381125" y="0" curve="-85"/>
-</polygon>
-<polygon width="0.2032" layer="29">
-<vertex x="0" y="1.42875" curve="-90"/>
-<vertex x="1.42875" y="0" curve="-90"/>
-<vertex x="0" y="-1.42875" curve="-90"/>
-<vertex x="-1.42875" y="0" curve="-90"/>
-</polygon>
-<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
+<package name="SMT-JUMPER_2_NC_PASTE_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SMT-JUMPER_3_NO">
+<symbol name="SMT-JUMPER_3_1-NC_PASTE">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
 <wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
@@ -9814,8 +9773,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.254" layer="95">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="-1.524" y="-1.524" curve="90"/>
+<vertex x="0" y="-3.048" curve="90"/>
+<vertex x="1.524" y="-1.524"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
 </symbol>
-<symbol name="SMT-JUMPER_2_NO">
+<symbol name="SMT-JUMPER_2_NC_PASTE">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
@@ -9824,17 +9790,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JUMPER-SMT_3_NO" prefix="JP">
-<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has three pads in close proximity to each other. Apply solder to close the connection(s).&lt;/p&gt;</description>
+<deviceset name="JUMPER-SMT_3_1-NC_PASTE" prefix="JP">
+<description>&lt;h3&gt;Normally closed solder jumper (1 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge one of the two connections. One connection is normally closed (NC), while the other is normally open (NO). Wick off the solder to open the connection. Reapply solder to reclose the connection. Apply solder to the other side instead to change the current path.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SMT-JUMPER_3_NO" x="0" y="0"/>
+<gate name="G$1" symbol="SMT-JUMPER_3_1-NC_PASTE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_NO-SILK" package="SMT-JUMPER_3_NO_NO-SILK">
+<device name="_NO-SILK" package="SMT-JUMPER_3_1-NC_PASTE_NO-SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9844,7 +9811,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="_SILK" package="SMT-JUMPER_3_NO_SILK">
+<device name="_SILK" package="SMT-JUMPER_3_1-NC_PASTE_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9856,19 +9823,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
-<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
-
-&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
-&lt;p&gt;SparkFun Product that uses the round pads:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+<deviceset name="JUMPER-SMT_2_NC_PASTE" prefix="JP">
+<description>&lt;h3&gt;Normally closed solder jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge the split in the wire so it's normally closed (NC). Wick off the solder to open the connection. Reapply solder to reclose the connection.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
+<gate name="G$1" symbol="SMT-JUMPER_2_NC_PASTE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
+<device name="_NO-SILK" package="SMT-JUMPER_2_NC_PASTE_NO-SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9877,25 +9839,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
-<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
+<device name="_SILK" package="SMT-JUMPER_2_NC_PASTE_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -10221,7 +10165,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="STANDOFF1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
@@ -10235,14 +10178,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
-<part name="JP8" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_SILK"/>
+<part name="JP8" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK"/>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
+<part name="JP7" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK"/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10289,7 +10233,7 @@ disconnect LED.</text>
 <text x="141.478" y="90.424" size="5.08" layer="97" font="vector" ratio="15">1</text>
 <text x="143.51" y="66.04" size="5.08" layer="97" font="vector" ratio="15">2</text>
 <wire x1="160.02" y1="116.84" x2="160.02" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="160.02" y1="124.46" x2="193.04" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="160.02" y1="124.46" x2="180.34" y2="124.46" width="0.2032" layer="97" style="shortdash"/>
 <text x="137.16" y="106.68" size="3.048" layer="97" font="vector">AT42QT </text>
 <wire x1="86.36" y1="35.56" x2="147.32" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <text x="88.9" y="30.48" size="2.54" layer="94" font="vector">Versions</text>
@@ -10307,10 +10251,10 @@ disconnect LED.</text>
 <vertex x="101.6" y="12.7"/>
 <vertex x="101.6" y="15.24"/>
 </polygon>
-<text x="200.66" y="132.08" size="3.048" layer="97" font="vector" ratio="15">1</text>
-<text x="200.66" y="119.38" size="3.048" layer="97" font="vector" ratio="15">2</text>
-<wire x1="196.596" y1="120.65" x2="199.898" y2="120.65" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="196.342" y1="133.35" x2="199.898" y2="133.35" width="0.2032" layer="97" style="shortdash"/>
+<text x="193.04" y="116.84" size="3.048" layer="97" font="vector" ratio="15">1</text>
+<text x="205.74" y="116.84" size="3.048" layer="97" font="vector" ratio="15">2</text>
+<wire x1="194.31" y1="120.396" x2="194.31" y2="123.698" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="207.01" y1="120.142" x2="207.01" y2="123.698" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="165.1" y="139.7"/>
@@ -10330,10 +10274,9 @@ disconnect LED.</text>
 <instance part="SUPPLY4" gate="G$1" x="55.88" y="71.12"/>
 <instance part="GND1" gate="1" x="60.96" y="99.06"/>
 <instance part="GND2" gate="1" x="119.38" y="129.54"/>
-<instance part="GND3" gate="1" x="195.58" y="116.84"/>
+<instance part="GND3" gate="1" x="213.36" y="116.84"/>
 <instance part="GND4" gate="1" x="144.78" y="129.54"/>
 <instance part="GND5" gate="1" x="55.88" y="22.86"/>
-<instance part="SUPPLY5" gate="1" x="195.58" y="134.62"/>
 <instance part="GND6" gate="1" x="68.58" y="22.86"/>
 <instance part="STANDOFF1" gate="G$1" x="241.3" y="33.02"/>
 <instance part="STANDOFF2" gate="G$1" x="238.76" y="33.02"/>
@@ -10350,8 +10293,8 @@ disconnect LED.</text>
 <attribute name="VALUE" x="241.3" y="134.62" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="228.6" y="126.238" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="JP8" gate="G$1" x="195.58" y="127" smashed="yes">
-<attribute name="NAME" x="202.692" y="127.889" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP8" gate="G$1" x="200.66" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="207.772" y="127.889" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="FID3" gate="G$1" x="223.52" y="33.02"/>
 <instance part="FID4" gate="G$1" x="218.44" y="33.02"/>
@@ -10362,6 +10305,7 @@ disconnect LED.</text>
 <instance part="J1" gate="G$1" x="45.72" y="109.22"/>
 <instance part="LOGO4" gate="G$1" x="223.52" y="38.1"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="38.1"/>
+<instance part="SUPPLY5" gate="G$1" x="190.5" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -10371,11 +10315,6 @@ disconnect LED.</text>
 <pinref part="SUPPLY3" gate="1" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="1" pin="VCC"/>
-<wire x1="195.58" y1="134.62" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -10399,6 +10338,12 @@ disconnect LED.</text>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="162.56" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP8" gate="G$1" pin="3"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
+<wire x1="195.58" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="124.46" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -10411,11 +10356,6 @@ disconnect LED.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="147.32" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="134.62" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="195.58" y1="121.92" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -10438,6 +10378,12 @@ disconnect LED.</text>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="50.8" y1="157.48" x2="53.34" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="157.48" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="124.46" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="213.36" y1="124.46" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT" class="0">
@@ -10520,15 +10466,6 @@ disconnect LED.</text>
 <label x="226.06" y="152.4" size="1.27" layer="95" font="vector" ratio="15" xref="yes"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="190.5" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="127" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SYNC/MODE"/>
-<wire x1="185.42" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="JP8" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -10553,6 +10490,14 @@ disconnect LED.</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SYNC/MODE"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="134.62" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
