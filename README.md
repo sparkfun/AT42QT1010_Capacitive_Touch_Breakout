@@ -22,7 +22,7 @@ Documentation
 
 Version History
 ---------------
-* **[HW_v1.0_FW_v1.0](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v1.0_FW_v1.0)** Initial release
+* **[HW_v1.0_FW_v1.0](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v1.0_FW_v1.0)** - Initial release
 
 License Information
 -------------------
