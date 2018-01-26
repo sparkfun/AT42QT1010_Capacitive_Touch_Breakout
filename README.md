@@ -31,7 +31,7 @@ Documentation
 Version History
 ---------------
 * **[HW_v20.0_FW_v1.0](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v20.0_FW_v1.0)** - Current Version for AT42QT1010 and AT42QT1011 with 8-pin UDFN/USON package.
-* *[HW_v1.0_FW_v1.0 (RETIRED)](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v1.0_FW_v1.0)*- Initial release for the AT42QT1010 with 6-Pin SOT23-6 package.*
+* *[HW_v1.0_FW_v1.0 (RETIRED)](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v1.0_FW_v1.0) - Initial release for the AT42QT1010 with 6-Pin SOT23-6 package.*
 
 License Information
 -------------------
