@@ -18,7 +18,7 @@ Repository Contents
 Documentation
 -------------------
 
-* [Hookup Guide](https://learn.sparkfun.com/tutorials/at42qt1010-capacitive-touch-breakout-hookup-guide) - Basic hookup guide for the .
+* [Hookup Guide](https://learn.sparkfun.com/tutorials/at42qt1010-capacitive-touch-breakout-hookup-guide) - Basic hookup guide for the AT42QT1010 Capacitive Touch Breakout.
 
 Version History
 ---------------
