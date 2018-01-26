@@ -22,9 +22,21 @@ Documentation
 
 Version History
 ---------------
-* **v1.0** Initial release
+* **[HW_v1.0_FW_v1.0](https://github.com/sparkfun/AT42QT1010_Capacitive_Touch_Breakout/releases/tag/HW_v1.0_FW_v1.0)** Initial release
 
 License Information
 -------------------
 The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
 All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
+_<COLLABORATION CREDIT>_
