@@ -15,6 +15,11 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Production** - Test bed files and production panel files
 
+Documentation
+-------------------
+
+* [Hookup Guide](https://learn.sparkfun.com/tutorials/at42qt1010-capacitive-touch-breakout-hookup-guide) - Basic hookup guide for the .
+
 Version History
 ---------------
 * **v1.0** Initial release
